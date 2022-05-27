@@ -1,8 +1,8 @@
 .apple{
-	color: #5d30bf;
-	font-size:40px;
+	color: black;
+	font-size:80px;
 	/*letter-spacing:10px;*/
-	line-height:100vh;
+	line-height:98vh;
 	/*font-weight:900;*/
 	/*display:flex;*/
 	/*text-decoration:underline;*/
@@ -14,7 +14,7 @@
 	transition:1s;
 }
 .apple:hover{
-	font-size:60px;
+	font-size:120px;
 }
 body {
 	margin-top: 0px;
