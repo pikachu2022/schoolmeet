@@ -1,0 +1,32 @@
+.apple{
+	color: #5d30bf;
+	font-size:40px;
+	/*letter-spacing:10px;*/
+	line-height:100vh;
+	/*font-weight:900;*/
+	/*display:flex;*/
+	/*text-decoration:underline;*/
+	/*font-style:italic;*/
+	opacity:0.5;
+	/*align-items:center;*/
+	/*font-family:arial,sans-serif;*/
+	cursor:pointer;
+	transition:1s;
+}
+.apple:hover{
+	font-size:60px;
+}
+body {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#container{
+	height:100vh;
+	background: -webkit-radial-gradient(circle,white,blue);
+	background: -o-radial-gradient(circle,white,blue);
+	background: -moz-radial-gradient(circle,white,blue);
+	background: radial-gradient(circle,white,blue);
+	text-align:center;
+}
