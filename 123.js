@@ -93,9 +93,9 @@ else if(e==4){
 }
 else if(e==5){
 	if(f==8)
-		window.open("https://");
+		window.open("https://docs.google.com/spreadsheets/d/e/2PACX-1vRFR9n43_dafnqj9IDfvZUcGz2jw0cbqwj3tk8QUp-fXOqh51FM3GX4sQMFqoHKM0bVuJvehaZyaU1Q/pubhtml?gid=1004013795&single=true");
 	else if(f==9)
-		window.open("https://");
+		window.open("https://docs.google.com/spreadsheets/d/e/2PACX-1vRFR9n43_dafnqj9IDfvZUcGz2jw0cbqwj3tk8QUp-fXOqh51FM3GX4sQMFqoHKM0bVuJvehaZyaU1Q/pubhtml?gid=1004013795&single=true");
 	else if(f==10)
 		window.open("https://meet.google.com/zti-xeis-hdz");
 	else if(f==11)
@@ -113,7 +113,9 @@ else if(e==5){
 
 
 }	
-
+function anal(){
+	window.open("https://meet.google.com/hkn-ffor-jdw");
+}
 
 
 
@@ -125,6 +127,10 @@ else if(new Date().getHours()<8)
 	document.getElementById('apple').textContent = '早自習';
 else if(new Date().getHours()<13 && new Date().getHours()>11)
 	document.getElementById('apple').textContent = '午休';
+else if(new Date().getDay()==4 && new Date().getHours()>13 && new Date().getHours()<16){
+	document.getElementById('apple').textContent = '中正大閱兵';
+	document.getElementById('banana').textContent = '/唐氏症';
+}
 /*
 console.log(a);
 console.log(b);
