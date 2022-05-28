@@ -119,7 +119,7 @@ function anal(){
 
 
 
-if(new Date().getDay()==0 && new Date().getDay()==6)
+if(new Date().getDay()==0 || new Date().getDay()==6)
 	document.getElementById('apple').textContent = '放假~';
 else if(new Date().getHours()>15)
 	document.getElementById('apple').textContent = '放學~';
