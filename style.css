@@ -1,5 +1,5 @@
 .apple{
-	color: black;
+	color: #e40cf0;
 	font-size:80px;
 	/*letter-spacing:10px;*/
 	line-height:98vh;
@@ -24,9 +24,9 @@ body {
 }
 #container{
 	height:100vh;
-	background: -webkit-radial-gradient(circle,white,blue);
+	/*background: -webkit-radial-gradient(circle,white,blue);
 	background: -o-radial-gradient(circle,white,blue);
 	background: -moz-radial-gradient(circle,white,blue);
-	background: radial-gradient(circle,white,blue);
+	background: radial-gradient(circle,white,blue);*/
 	text-align:center;
 }
