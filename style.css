@@ -17,6 +17,15 @@
 .apple:hover{
 	font-size:80px;
 }
+.banana{
+	font-size:30px;
+	cursor:pointer;
+	transition:1s;
+	
+}
+.banana:hover{
+	font-size:40px;
+}
 body {
 	margin-top: 0px;
 	margin-right: 0px;
