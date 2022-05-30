@@ -136,3 +136,16 @@ console.log(a);
 console.log(b);
 console.log(c);
 */
+var x;
+x=document.body.clientWidth;
+var y;
+y=document.body.clientHeight;
+var ix;
+ix=document.getElementById("img").clientWidth;
+var iy;
+iy=document.getElementById("img").clientHeight;
+var imgx=555;
+var imgy=260;
+var par=x-imgx*y/imgy;
+var cc=document.querySelector("img")
+//cc.style.margin="-150px";
