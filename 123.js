@@ -149,3 +149,5 @@ var imgy=260;
 var par=x-imgx*y/imgy;
 var cc=document.querySelector("img")
 //cc.style.margin="-150px";
+if(x<y)
+var img=document.getElementById('img').src="img/m_background.jpg";
