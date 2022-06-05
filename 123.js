@@ -118,8 +118,17 @@ function anal(){
 }
 
 
-
-if(new Date().getDay()==0 || new Date().getDay()==6)
+if(new Date().getYear()>=122 && new Date().getMonth()>=5 && new Date().getDate()>=5){
+	document.getElementById('apple').onclick="p()";
+	document.getElementById('apple').style="cursor:default;";
+	document.getElementById('banana').onclick="p()";
+	a=7-new Date().getDate();
+	if(new Date().getDate()!=7)
+		document.getElementById('apple').textContent = "距離畢業倒數"+(7-new Date().getDate())+"天~";
+	else
+		document.getElementById('apple').textContent = '畢業快樂!~';
+}
+else if(new Date().getDay()==0 || new Date().getDay()==6)
 	document.getElementById('apple').textContent = '放假~';
 else if(new Date().getHours()>15)
 	document.getElementById('apple').textContent = '放學~';
